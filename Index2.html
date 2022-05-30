@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VanBot</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles/Base2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="page">
+        <form action="FormAction" enctype="multipart/form-data" method="POST">
+            <div class="box-left" id="forms">
+                <img src="/static/figures/VanBot.png" alt="VanBot Logo" id="logo">
+                <div class="item0">
+                    <h1> Selecionar arquivo:</h1>
+                    <input type="file" id="imagem" name="file" accept="image/png, image/jpeg">
+                </div>
+                <h1>Especificações do papel:</h1>
+
+                <div class="item0">
+                    <h1> Frequência: </h1>
+                    <input type="number" id="margem" name="freq" value=""><br>
+                </div>
+
+                <div class="item0">
+                    <h1> Resolução: </h1>
+                    <input type="number" id="margem" name="res" value=""><br>
+                </div>
+
+                <h1> Papel: </h1>
+                <div class="item">
+                    <input type="radio" id="A2" value="A2" name="tamanho"> <label for="A2" id="name">A2</label><br>
+                    <input type="radio" id="A3" value="A3" name="tamanho"> <label for="A3" id="name">A3</label><br>
+                    <input type="radio" id="A4" value="A4" name="tamanho"> <label for="A4" id="name">A4</label><br>
+                </div>
+                <h1> Estilo de Desenho: </h1>
+                <div class="item">
+                    <input type="radio" id="Senoide" value="Senoide" name="estilo"> <label for="Senoide"
+                        id="name">Senoide</label><br>
+                    <input type="radio" id="Pontilhismo" value="Pontilhismo" name="estilo"> <label for="Pontilhismo"
+                        id="name">Pontilhismo</label><br>
+                    <input type="radio" id="Rabiscos" value="Rabiscos" name="estilo"> <label for="Renoide"
+                        id="name">Rabiscos</label><br>
+                    <!-- <input type="radio" id="Circular" value="Circular" name="estilo"> <label for="Circular"
+                        id="name">Circular</label><br> -->
+
+                </div>
+
+                <div class="botoes">
+                    <button id="Botao"><a href='home'>Voltar</a></button>
+                    <input type="submit" value="Processar imagem" id="Botao">
+                    <input type="reset" value="Limpar" id="Botao">
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+
+</html>

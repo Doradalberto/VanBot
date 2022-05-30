@@ -1,0 +1,107 @@
+body {
+    background-color: gainsboro;
+    padding: 0;
+    margin: 0;
+}
+
+p, H1 {
+    font-family: Calibri;
+    font-size: 24px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.page {
+    position: absolute;
+    display: flex;
+    background-color: whitesmoke;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    margin: 30px 90px;
+    box-shadow: 5px 5px 20px #bdbdbd;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 25px 50px 60px;
+    justify-content: space-evenly;
+    width: -webkit-fill-available;
+}
+
+
+.box-right {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 50px 25px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-left: 24px;
+}
+
+.item0 {
+    display: flex;
+    align-items: center;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+
+#forms {
+    width: 65%;
+}
+
+#preview {
+    width: 35%;
+    margin-top: 70px;
+}
+
+#logo {
+    height: fit-content;
+    width: 200px;
+}
+
+#preview-fig {
+    height: fit-content;
+    width: 500px;
+}
+
+#name {
+    padding-right: 36px;
+    padding-left: 12px;
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+#margem {
+    margin: 0px 24px 0px 24px;
+    border: none;
+    padding: 8px;
+    width: 60px;
+}
+
+#Botao {
+    /* border: none;
+    background-color: peachpuff;
+    box-shadow: 1px 1px 4px #bdbdbd;
+    border-radius: 5px; */
+    margin-right: 24px;
+    font-family: Calibri;
+    font-size: 20px;
+    padding: 4px 24px 4px 24px;
+}
+
+#imagem {
+    margin-left: 24px;
+}
+
+#unidade {
+    font-size: 20px;
+}

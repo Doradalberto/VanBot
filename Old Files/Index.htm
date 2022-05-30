@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VanBot</title>
+    <link href="Base.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Icon.png">
+</head>
+
+<body>
+    <div class="page">
+        <div class="box-left" id="forms">
+            <img src="Figuras/VanBot.png" alt="VanBot Logo" id="logo">
+            <div class="item0">
+                <h1> Selecionar arquivo:</h1>
+                <input type="file" id="imagem" name="avatar" accept="image/png, image/jpeg">
+            </div>
+            <h1>Especificações do papel:</h1>
+            <h1>Formato:</h1>
+            <div class="item">
+                <input type="radio" id="retrato" value="retrato"> <label for="retrato" id="name">Retrato</label><br>
+                <input type="radio" id="paisagem" value="paisagem"> <label for="paisagem" id="name">Paisagem</label><br>
+            </div>
+            <h1>Papel:</h1>
+            <div class="item">
+                <input type="radio" id="A1" value="A1"> <label for="A1" id="name">A1</label><br>
+                <input type="radio" id="A2" value="A2"> <label for="A2" id="name">A2</label><br>
+                <input type="radio" id="A3" value="A3"> <label for="A3" id="name">A3</label><br>
+                <input type="radio" id="A4" value="A4"> <label for="A4" id="name">A4</label><br>
+                <input type="radio" id="A5" value="A5"> <label for="A5" id="name">A5</label><br>
+                <input type="radio" id="A6" value="A6"> <label for="A6" id="name">A6</label><br>
+            </div>
+            <h1> Estilo de Desenho:</h1>
+            <div class="item">
+                <input type="radio" id="pontilhismo" value="pontilhismo"> <label for="pontilhismo"
+                    id="name">Pontilhismo</label><br>
+                <input type="radio" id="circular" value="circular"> <label for="circular" id="name">Circular</label><br>
+                <input type="radio" id="senoide" value="senoide"> <label for="senoide" id="name">Senoide</label><br>
+            </div>
+            <div class="item0">
+                <h1> Margem: </h1>
+                <input type="number" id="margem" name="margin" value=""><br>
+                <p id="unidade">cm</p>
+            </div>
+            <div class="botoes">
+                <input type="submit" value="Processar imagem" id="Botao">
+                <input type="reset" value="Limpar" id="Botao">
+            </div>
+
+        </div>
+        <div class="box-right" id="preview">
+            <h1>Preview</h1>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
